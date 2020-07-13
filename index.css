@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 4824px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.flexible {
+    background-image: url("/images/YoungGirlDream.png");
+    background-repeat: no-repeat;
+    background-color: blue;
+    background-position: top center;
+    background-size: auto;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    margin-top: 12px;
+}
+
+.icon img {
+    transition: .5s;
+    max-width: 50px;
+}
+.icon img:hover {
+    transform: scale(1.5);
+}
+
+.socialicons {
+    position: fixed;
+    top: 60%;
+    left: 1%;
+    width: 20%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: inline-block;
+    max-width: 85px;
+}
+
+.flexthis1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote1 {
+    margin-left: 10%;
+}
+
+.quote1 p {
+    color: #000000;
+    text-shadow: 1px 1px #C0C0C0;
+   font-size: 64px;
+   font-family: 'Poppins', sans-serif;
+}
+
+.apply {
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.apply:hover > .imgcon {
+    background-image: url(/images/defaulty1.png);
+}
+
+.imgcon {
+    height: 116px;
+    width: 262px;
+    transition: .5s;
+    background-image: url(/images/applydefault.png);
+}
+.imgcon:hover {
+    transform: scale(1.1);
+
+    background-image: url(/images/applyhover.png) !important;
+}
+
+.overabove {
+    height: 10%;
+}
+
+.Newsletter {
+    font-size: 64px;
+    font-family: 'Poppins', sans-serif;
+    color: #d4af37;
+    transition: .5s;
+}
+.Newsletter a {
+    color: #d4af37;
+    text-decoration: none;
+}
+
+.Newsletter:hover{
+
+    transform: scale(1.1);
+}
+
+#Newsletter {
+    margin-left: 15%;
+    width: 40%;
+}
